@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.4"
+install:
+  - pip install -e ./django
+  - pip install -e ./django-debug-toolbar
+  - pip install django-discover-runner sqlparse
+before_script: cd django-debug-toolbar
+script: make test

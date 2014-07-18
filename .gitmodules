@@ -1,0 +1,7 @@
+[submodule "django"]
+	path = django
+	url = git@github.com:django/django.git
+    branch = stable/1.7.x
+[submodule "django-debug-toolbar"]
+	path = django-debug-toolbar
+	url = https://github.com/django-debug-toolbar/django-debug-toolbar.git
